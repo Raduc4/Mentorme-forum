@@ -3,5 +3,9 @@ module.exports = {
     siteUrl: "https://www.yourdomain.tld",
     title: "forum",
   },
-  plugins: [],
+  plugins: [
+    `gatsby-plugin-postcss`,
+    `gatsby-plugin-image`,
+    `gatsby-plugin-sharp`,
+  ],
 };
